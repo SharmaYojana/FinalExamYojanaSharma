@@ -29,11 +29,13 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void loginButton(View view) {
-        if(userName.length() <= 0){
+        if (userName.length() <= 0) {
             Toast.makeText(this, "Enter a username", Toast.LENGTH_SHORT).show();
-        } if (passWord.length()<=0){
+        }
+        if (passWord.length() <= 0) {
             Toast.makeText(this, "Enter a password", Toast.LENGTH_SHORT).show();
-        } if (userName.length() <= 0 && passWord.length() <= 0 || (userName.length() > 0 && passWord.length() > 0)){
+        }
+        if (userName.length() <= 0 && passWord.length() <= 0 || (userName.length() > 0 && passWord.length() > 0)) {
             Intent intent = new Intent(LoginActivity.this, ProfileActivity.class);
             startActivity(intent);
             finish();

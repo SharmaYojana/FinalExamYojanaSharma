@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">FinalExamYojanaSharma</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string-array name="Profile">
+        <item> Image </item>
+        <item> Button1 </item>
+        <item> Button2 </item>
+        <item> Button3 </item>
+        <item> Logout </item>
+
+
+
+    </string-array>
 </resources>
